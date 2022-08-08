@@ -1,0 +1,118 @@
+/* * {
+  border: 1px solid green;
+}
+*/
+body {
+  background-color: snow;
+  color: slategrey;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+nav {
+  height: 100vh;
+  color: white;
+  background-color: #394b58;
+}
+
+.middle-box {
+  margin: 0px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.class-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  box-shadow: 2px 2px #888888;
+  text-align: left;
+  border: 2px solid #888888;
+}
+
+.color-box {
+  height: 75px;
+}
+
+.color1 {
+  background-color: #90271e;
+}
+
+.color2 {
+  background-color: #6a5426;
+}
+
+.color3 {
+  background-color: #68367d;
+}
+
+.color4 {
+  background-color: #115780;
+}
+
+.color5 {
+  background-color: #902b25;
+}
+
+.color6 {
+  background-color: #90281c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  text-align: left;
+  font-weight: lighter;
+  color: #2d3b45;
+}
+
+nav ul {
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.To-Do-Sidebar p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.to-do-text {
+  margin-top: 18px;
+}
+
+.fa-bullseye:before {
+  content: "\f140";
+  font-size: 40px;
+}
